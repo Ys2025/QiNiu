@@ -1,0 +1,18 @@
+server:
+  port: 9999
+
+spring:
+  freemarker:
+    suffix: .ftl
+    content-type: text/html
+    charset: UTF-8
+    template-loader-path: classpath:/views/
+  # 热部署
+  devtools:
+    restart:
+      enabled: true
+      # 重启目录
+      additional-paths: src/main/java
+      # 解决404问题
+      poll-interval: 3000
+      quiet-period: 1000

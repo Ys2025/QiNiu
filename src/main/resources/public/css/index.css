@@ -1,0 +1,7 @@
+body{
+    background-image: url("../image/back.jpg");
+}
+
+.layui-row{
+    line-height: 10px;
+}
